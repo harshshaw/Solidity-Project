@@ -37,9 +37,9 @@ abi = json.loads(
 )["output"]["abi"]
 
 # for connecting to ganache
-w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
+w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
 chain_id = 1337
-my_address = "0x3C5c9555697a21651D822e872Aac3854888f7Fd7"
+my_address = "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1"
 private_key = os.getenv("PRIVATE_KEY")
 
 
